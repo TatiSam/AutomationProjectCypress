@@ -1,0 +1,13 @@
+{
+  "title": "Mr",
+  "firstName": "John",
+  "lastName": "Dow",
+  "email": "john@gmail.com",
+  "password": "p123456",
+  "phoneNumber": "123459",
+  "apartment": "5",
+  "street": "Dizingof 48",
+  "town": "Beer Sheva",
+  "state": "HADAROM",
+  "zip": "12345"
+}

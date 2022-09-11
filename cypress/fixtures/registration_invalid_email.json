@@ -1,0 +1,60 @@
+{
+  "arr": [
+    {
+      "title": "Mr",
+      "firstName": "John",
+      "lastName": "Dow",
+      "email": "john@gmail",
+      "password": "p123456",
+      "phoneNumber": "123459",
+      "apartment": "5",
+      "street": "Dizingof 48",
+      "town": "Beer Sheva",
+      "state": "HADAROM",
+      "zip": "12345",
+      "expectedResult": "This value should be a valid email."
+    },
+    {
+      "title": "Mr",
+      "firstName": "John",
+      "lastName": "Dow",
+      "email": "john.com",
+      "password": "p123456",
+      "phoneNumber": "123459",
+      "apartment": "5",
+      "street": "Dizingof 48",
+      "town": "Beer Sheva",
+      "state": "HADAROM",
+      "zip": "12345",
+      "expectedResult": "This value should be a valid email."
+    },
+    {
+      "title": "Mr",
+      "firstName": "John",
+      "lastName": "Dow",
+      "email": "johbdow",
+      "password": "p123456",
+      "phoneNumber": "123459",
+      "apartment": "5",
+      "street": "Dizingof 48",
+      "town": "Beer Sheva",
+      "state": "HADAROM",
+      "zip": "12345",
+      "expectedResult": "This value should be a valid email."
+    },
+    {
+      "title": "Mr",
+      "firstName": "John",
+      "lastName": "Dow",
+      "email": "@.com",
+      "password": "p123456",
+      "phoneNumber": "123459",
+      "apartment": "5",
+      "street": "Dizingof 48",
+      "town": "Beer Sheva",
+      "state": "HADAROM",
+      "zip": "12345",
+      "expectedResult": "This value should be a valid email."
+    }
+  ]
+}

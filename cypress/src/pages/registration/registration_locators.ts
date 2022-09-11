@@ -1,0 +1,41 @@
+export interface registrationPageLocatorsInterface {
+    'titleSelect': string,
+    'firstName': string,
+    'lastName': string,
+    'email': string,
+    'password': string,
+    'phoneNumber': string,
+    'apartment': string,
+    'street': string,
+    'town': string,
+    'stateSelect': string,
+    'zip': string,
+    'signUpBtn': string,
+    'continueShoppingBtn': string,
+    'firstNameError': string,
+    'lastNameError': string,
+    'emailError': string,
+    'passwordError': string,
+    'phoneNumberError': string
+}
+
+export const registrationPageLocators: registrationPageLocatorsInterface = {
+    'titleSelect': 'select[id="Title"]',
+    'firstName': '[id="FirstName"]',
+    'lastName': '[id="LastName"]',
+    'email': '[id="Email"]',
+    'password': '[id="Password"]',
+    'phoneNumber': '[id="PhoneNumber"]',
+    'apartment': '[id="AddressLine1"]',
+    'street': '[id="AddressLine2"]',
+    'town': '[id="AddressLine4"]',
+    'stateSelect': '[id="AddressLine5"]',
+    'zip': '[id="AddressLine6"]',
+    'signUpBtn': '[id="SignupButton"]',
+    'continueShoppingBtn': 'div[class="error-description"] a[class="link-btn"]',
+    'firstNameError': '[id="FirstName-error"]',
+    'lastNameError': '[id="LastName-error"]',
+    'emailError': '[id="Email-error"]',
+    'passwordError': '[id="Password-error"]',
+    'phoneNumberError': '[id="PhoneNumber-error"]'
+}
